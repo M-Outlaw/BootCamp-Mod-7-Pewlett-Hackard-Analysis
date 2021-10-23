@@ -6,7 +6,7 @@ Performing analysis on Pewlett-Hackard employee database to determine the number
 ### Purpose
 The purpose of this analysis is to use SQL to create database of Pewlett-Hackard employees to help Bobby, an HR analyist at Pewlett-Hackard, to determine which employees are eligable for Pewlett-Hackard's retirement package and which positions will need to be filled.
 
-## Analysis and Challenges
+## Analysis and Results
 ### Data
 - Pewlett-Hackard previously has been mainly using Excell and VBA to store and manipulate their data. Therefore, 6 CSV were provided with all of the employee data for the company.
 
@@ -67,7 +67,13 @@ The purpose of this analysis is to use SQL to create database of Pewlett-Hackard
   * Showing that employees who are Mangers are mostly younger than retirement age, since only 2 of the 9 department managers are eligible for retirement.
 - The mentor_list table contains 1,549 rows, showing that there are 1,549 people eligible to be mentors.
   * Showing that there is no way for there to be a one-to-one mentor to new employee assignment for all of the postions that will need to be filled.
-- The counts for the mentor_list table does not proportionately match 
+- The title counts for those eligable to be mentors does not proportionately match the title counts for those eligable to retire.
+ * There are no managers eligible to be mentors.
+ * Senior Staff are 31% of those to retire but are only 18% of those eligable to be mentors.
+- The department counts for those eligable to be mentors roughly proportionately matches the department counts for those eligable to retire
 
 ## Summary
+- There are 90,398 roles that potential need to be filled very soon.
+ * Mostly from senior employees.
+- While the mentor list is roughy proportional to the retirement list per department, the mentor list is not proportional to the retirement list per title. Also, there are 
 
